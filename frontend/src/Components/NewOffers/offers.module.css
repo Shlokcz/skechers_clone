@@ -1,0 +1,28 @@
+.offers{
+    height: 600px;
+
+}
+
+.offers p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    width: fit-content;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.offers img{
+    height: 500px;
+    width: 100%;
+}
+
+.line{
+    position: relative;
+    top: 20px;
+    height: 0.1px;
+    background-color: rgb(192, 192, 192);
+    z-index: -1;
+}

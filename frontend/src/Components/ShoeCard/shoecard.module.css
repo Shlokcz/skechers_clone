@@ -1,0 +1,83 @@
+.shoecards{
+    display: flex;
+    height: 440px;
+    align-items: center;
+    gap: 2%;
+    justify-content: center;
+}
+
+.shoecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 260px;
+    padding: 20px 12px;
+    cursor: pointer;
+}
+
+.shoecard:hover{
+    box-shadow: 0px 0px 16px 8px rgb(228, 228, 228);
+    /* background-color: aliceblue; */
+    transition: 0.2s;
+}
+
+.shoeImg img{
+    height: 80px;
+    width: 80px;
+} 
+
+.new{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    /* margin: 0px 20px; */
+}
+
+.new button{
+    background-color: #0063ba;
+    border: none;
+    padding: 1px 12px;
+    color: white;
+}
+
+.shoeImg img{
+    height: 150px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.addtocart{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.addtocart img{
+    height: 14px;
+    width: 14px;
+    background-color: rgb(174, 173, 173);
+    border-radius: 50%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.titleandprice{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.titleandprice h6{
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.titleandprice p{
+    font-weight: bold;
+}

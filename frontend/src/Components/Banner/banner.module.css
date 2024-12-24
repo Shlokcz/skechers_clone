@@ -1,0 +1,21 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 99, 178);
+    color: white;
+    height: 41px;
+}
+
+.banner img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.banner span{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+

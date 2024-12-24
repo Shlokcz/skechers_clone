@@ -1,0 +1,147 @@
+.navbar2 {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 45px;
+  z-index: 1000;
+  background-color: white;
+  border-top: 0.5px solid rgb(205, 205, 205);
+  border-bottom: 0.5px solid rgb(205, 205, 205);
+}
+
+.navbar2 img{
+  cursor: pointer;
+}
+
+.logo {
+  height: 22px;
+  width: 210px;
+  margin: 20px;
+}
+
+.category {
+  width: 600px;
+  height: 80px;
+}
+
+.category ul {
+  display: flex;
+}
+
+.category ul li {
+  list-style-type: none;
+  margin: 0 3%;
+  font-size: 1.2rem;
+  color: rgb(75, 72, 72);
+  letter-spacing: 0.61px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 80px;
+  display: block;
+  align-content: center;
+
+}
+
+.cartImg {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  gap: 2%;
+}
+
+.cartImg input {
+  padding: 6px 10px;
+  border: none;
+  border-bottom: 1px solid #0063ba;
+  width: 250px;
+  /* margin-left: 100px; */
+  background-color: transparent;
+  font-size: 1.05rem;
+}
+
+.cartImg input:focus {
+  outline: none;
+}
+
+.cartImg img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.cartImg p{
+  position: relative;
+  top: -10px;
+  right: 16px;
+  background-color: #0063ba;
+  border-radius: 50%;
+  padding: 2px 7px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+
+.blurredBackground{
+    position: absolute;
+    top: 80px;
+    height: 575px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    opacity: 0.7;
+    /* filter: blur(4px); */
+}
+
+.hoveredMenu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  height: fit-content;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  border-top: 0.5px solid rgb(217, 217, 217);
+  -webkit-box-shadow: 0px 1px 1px #424242;
+  -moz-box-shadow: 0px 1px 1px #424242;
+  box-shadow: 0px 4px 6px #686868;
+  /* box-shadow: 0px 30px 100px 1px rgb(42, 42, 42); */
+  color: rgb(75, 72, 72);
+  padding-bottom: 20px;
+}
+
+.differentSections{
+  padding: 20px;
+  /* background-color: aliceblue; */
+  margin-top: 10px;
+}
+
+.differentSections ul li{
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.headingDiv{
+  width: 100%;
+  /* background-color: #686868; */
+  border-bottom: 0.5px solid rgb(211, 211, 211);
+}
+
+.heading{
+  margin-bottom: 26px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.differentSections ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link{
+  color: rgb(75, 72, 72);
+  text-decoration: none;
+}

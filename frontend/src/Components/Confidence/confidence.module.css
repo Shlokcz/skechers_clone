@@ -1,0 +1,49 @@
+.confidence {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: 320px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(230, 230, 230);
+}
+
+.confidence h2{
+    font-size: 1.9rem;
+    letter-spacing: 2px;
+    color: rgb(56, 93, 173);
+    font-weight: 400;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    /* flex-wrap:nowrap; */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.card img{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.card h4{
+    font-weight: 600;
+}
+
+.card p{
+    text-align: center;
+    color: rgb(75, 72, 72);
+}
